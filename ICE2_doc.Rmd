@@ -1,0 +1,85 @@
+---
+title: "In-Class Exercise #2: Chapter 2.1"
+output: pdf_document
+geometry: margin=1.5cm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Instructions: 
+This In-Class Exercise has us apply various concepts from Chapter 1. Problem \#1 focuses on Section 2.1 concepts; while Problem 2 focuses on Chapter 2.1. 
+
+# Submission and Grading
+
+
+In-Class Exercises are graded as Complete or Incomplete. To receive a complete grade, you MUST ANSWER EVERY QUESTION to the best of your ability. For instance, if you do not answer ONE QUESTION, you will receive an incomplete on this assignment. The purpose of this grading scale is to ensure you are attempting every problem and working to learn the material. 
+
+--- 
+
+***.Rmd Notes:*** If you choose to practice using .Rmd and type up your answer, here are some tips. 
+
+There are two ways to type in mathematical equation/symbols. If you use double `$` such as:
+`$$ ENTER MATH FORMULAS HERE $$`
+or single `$` such as:
+`$ ENTER MATH FORMULAS HERE $`
+
+The double `$$` centers the equation on its own line and the single `$` treat the equation as part of the line. 
+
+* Union symbol: $\cup$ type `\cup`
+* Intersection symbol: $\cap$ type `\cap`
+* Superscript for complement: $A^C$ type `A^C`
+
+Example 1: `$$ P(A \cap B)$$` results in $$ P(A \cap B)$$. 
+Example 2: `$P(A \cup B)$` results in $P(A \cup B)$.
+
+--- 
+
+## Problem 1
+True or false: If $A$ and $B$ are mutually exclusive, 
+
+a. $P(A \cup B) = 0$  FALSE 
+b. $P(A \cap B) = 0$  TRUE 
+c. $P(A \cup B) = P(A \cap B)$ FALSE 
+d. $P(A \cup B) = P(A) + P(B)$ TRUE
+
+
+$~$ \newline \newline \newline
+
+$~$ \newpage
+
+## Problem  2
+Human blood may contain either of both of two antigens, A and B.  Blood that contains only the A antigen is called type A, blood that contains only the B antigen is called type B, blood that contains both antigens is called type AB, and blood that contains neither antigen is called type O.  At a certain blood bank, 35% of the blood donors have type A blood, 10% have type B, and 5% have type AB.
+
+a. What is the probability that a randomly chosen blood donor is type O? 50%
+
+b. A recipient with type A blood may safely receive blood from a donor whose blood does not contain the B antigen.  What is the probability that a randomly chosen blood donor may donate to a recipient with type A blood? 85%
+
+$~$\newpage
+
+## Problem  3
+
+Let $V$ be the event that a computer contains a virus, and let $W$ be the event that a computer contains a worm.  Suppose $P(V)=0.15$, $P(W)=0.05$, and $P(V \cup W) = 0.17$.
+
+a. Find the probability that the computer contains both a virus and a worm. 3%
+
+b. Find the probability that the computer contains neither a virus nor a worm. 83%
+
+c. Find the probability that the computer contains a virus but not a worm. 12% (Additive rule)
+
+
+$~$\newpage
+
+## Problem  4
+Suppose there is an 70\% chance it will rain later today, and a 45\% chance it will rain tomorrow. There is a 10% chance it will not rain on either day. Find the following probabilities.
+
+(a) The probability that it will rain today or tomorrow. 90%
+(b) The probability that it will rain today and tomorrow. 25%
+(c) The probability that it will rain today but not tomorrow. 45%
+(d) The probability that it will rain today or tomorrow, but not both. 65%
+
+You may use Venn diagrams to verify your intuition but you must show formal mathematical reasoning for (a)-(d) above.
+
+
+
